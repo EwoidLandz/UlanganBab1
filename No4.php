@@ -63,3 +63,22 @@ $sonic = new sonic(name: "Sonic", machine_number: 54232, type: 'sport',type_cili
 echo $vario1->display();
 echo $vario2->display();
 echo $sonic->display();
+/* Output:
+No. 1
+Nama: Vario
+No Mesin: 123
+Type: sport
+CC Cilinder: 125
+
+No. 2
+Nama: Vario
+No Mesin: 4523
+Type: sport
+CC Cilinder: 150
+
+No. 3
+Nama: Sonic
+No Mesin: 54232
+Type: sport
+CC Cilinder: 150
+ */

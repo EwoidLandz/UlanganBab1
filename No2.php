@@ -11,7 +11,7 @@ class No2{
         $this->type = $type;
     }
 }
-$obj = new No2('Andrew' , 1245);
+$obj = new No2('Vario' , 1245);
 echo 'Nama: ' . $obj->name  . "<br>";
 echo 'ID Mesin: ' . $obj->id_machine . "<br>";
 echo 'Type Motor: ' . $obj->type;
